@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+.globalsCard {
+  height: 375px;
+  width: 298px;
+  background-color: indianred;
+  border-radius: 16px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.primaryLine {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  padding: 10px 15px;
+  align-items: center;
+  border-bottom: 2px dotted rgba(255, 192, 203, 0.2);
+}
+.globalsCard .myAvatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 14px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
+}
+.description p {
+  text-transform: capitalize;
+}
+.description span {
+  font-size: 14px;
+  color: rgb(211, 161, 180);
+}
+.secundyLine {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px 20px;
+  border-bottom: 2px dotted rgba(255, 192, 203, 0.2);
+  text-transform: capitalize;
+}
+.thirdLine {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px 20px;
+  border-bottom: 2px dotted rgba(255, 192, 203, 0.2);
+  text-transform: capitalize;
+}
+.quartLine {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px 20px;
+  border-bottom: 2px dotted rgba(255, 192, 203, 0.2);
+  text-transform: capitalize;
+  /* border: 1px solid red; */
+}
